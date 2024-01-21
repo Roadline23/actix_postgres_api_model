@@ -1,0 +1,19 @@
+[package]
+name = "entity"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.185"
+serde_json = "1.0.105"
+uuid = { version = "1.4.1", features = ["v4"] }
+chrono = { version = "0.4.26" , features = ["serde"] }
+validator = { version = "0.16.1", features = ["derive", "phone"] }
+regex = "1.9.1"
+lazy_static = "1.4.0"
+
+[dependencies.sea-orm]
+version = "0.12.0"
+

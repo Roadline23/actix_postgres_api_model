@@ -1,0 +1,6 @@
+/target
+.env
+/db
+Dockerfile_crash.txt
+Dockerfile.dev.txt
+rust_analyzer.json
